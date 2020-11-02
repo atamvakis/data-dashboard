@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Data Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!--DataTables CSS-->
+    <link rel="stylesheet" type="text/css" href="https:////cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+
+    <!--C3 CSS-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.css" >
+
+    <!-- Custom styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <div id="main-nav" class="navbar navbar-light navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header justify-content-center">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img  src="img/center.jpg" height="50px">
+        </div>
+        <div id="right-float" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><img src="img/left.jpg" height="50px"></li>
+            <li><img src="img/right.jpg" height="50px"></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div id="top-text" class="container">
+      <div class="row ">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <h1 id="headline" class="title">Test COVID-19 Deaths in the United States</h1>
+          <div class="byline">
+            <h6 class="inner">By Alexandra Tamvakis</h6>
+            <h6 class="inner">November 2, 2020</h6>
+          </div>
+          <p id="blurb" class="body-text">Since its outbreak in early 2020, the COVID-19 virus has wreaked havoc upon the nation. With the death toll in the United States surpassing 200,000 as of November 2020, let's break down the lives lost as a result of the coronavirus from May to August 2020.</p>
+          <div id="test"></div>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h4 class="title">Deaths from COVID-19 in the United States per Month, May to August</h4>
+          <div id="chart"></div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+    <div id="middle-text" class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="body-text">The coronavirus has impacted different demographic groups of Americans in different ways. For instance, Americans of various races and genders have been affected differently.</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <div id="pie-charts" class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+          <h4 class="title">Deaths by Race</h4>
+          <div id="pie-chart-one"></div>
+          <hr>
+        </div>
+        <div class="col-md-4">
+          <h4 class="title">Deaths by Age Group</h4>
+          <div id="pie-chart-two"></div>
+          <hr>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+
+
+    <div id="lower-third" class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <p class="body-text">Take a look at the data set in its entirety:</p>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-xs-0"></div>
+          <div class="col-md-8">
+          <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>Date of Death Month</th>
+                        <th>Region</th>
+                        <th>Age Group</th>
+                        <th>Race/Ethnicity</th>
+                        <th>Deaths</th>
+                        <th>Sex</th>
+                        <th>Place of Death</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                      <th>Date of Death Month</th>
+                      <th>Region</th>
+                      <th>Age Group</th>
+                      <th>Race/Ethnicity</th>
+                      <th>Deaths</th>
+                      <th>Sex</th>
+                      <th>Place of Death</th>
+                    </tr>
+                </tfoot>
+              </table>
+            </div>
+            <div class="col-md-2 col-xs-0"></div>
+          </div>
+      </div>
+
+      <div id="credit" class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <a id="data-source" class="body-text" href="https://catalog.data.gov/dataset/monthly-counts-of-covid-19-deaths-by-region-age-place-and-race-and-hispanic-origin">Data via the Center for Disease Control and Data.gov</a>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+
+
+  <!-- Optional JavaScript -->
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   <!-- dataTables -->
+   <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+   <!-- HighCharts
+   <script src="https://code.highcharts.com/highcharts.js"></script>
+    -->
+
+   <!--d3-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.2.0/d3.min.js"></script>
+
+   <!--c3-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.20/c3.js"></script>
+
+   <!-- My JS File -->
+   <script src="js/main.js"></script>
+
+
+  </body>
+</html>
