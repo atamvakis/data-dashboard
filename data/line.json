@@ -1,0 +1,62 @@
+[
+ {
+   "Month": 5,
+   "Gender": "Male",
+   "NumOfDeaths": 19220
+ },
+ {
+   "Month": 5,
+   "Gender": "Female",
+   "NumOfDeaths": 18720
+ },
+ {
+   "Month": 5,
+   "Gender": "All",
+   "NumOfDeaths": 37940
+ },
+ {
+   "Month": 6,
+   "Gender": "Male",
+   "NumOfDeaths": 9248
+ },
+ {
+   "Month": 6,
+   "Gender": "Female",
+   "NumOfDeaths": 8470
+ },
+ {
+   "Month": 6,
+   "Gender": "All",
+   "NumOfDeaths": 17718
+ },
+ {
+   "Month": 7,
+   "Gender": "Male",
+   "NumOfDeaths": 17004
+ },
+ {
+   "Month": 7,
+   "Gender": "Female",
+   "NumOfDeaths": 13397
+ },
+ {
+   "Month": 7,
+   "Gender": "All",
+   "NumOfDeaths": 30401
+ },
+ {
+   "Month": 8,
+   "Gender": "Male",
+   "NumOfDeaths": 15459
+ },
+ {
+   "Month": 8,
+   "Gender": "Female",
+   "NumOfDeaths": 12893
+ },
+ {
+   "Month": 8,
+   "Gender": "All",
+   "NumOfDeaths": 28352
+ }
+]

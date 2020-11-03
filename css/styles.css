@@ -3,6 +3,7 @@ body{
     padding-top:75px;
 }
 
+
 #main-nav{
   background: white;
    border-bottom:1px solid gray;
@@ -51,7 +52,7 @@ body{
   margin: auto;
   width:60%;
   font-style: italic;
-  padding-bottom:4em;
+  padding-bottom:3em;
 }
 
 
@@ -69,7 +70,7 @@ body{
 }
 
 #middle-text{
-  padding-top:30px;
+  padding-top:100px;
 }
 
 #pie-charts{

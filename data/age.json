@@ -1,0 +1,46 @@
+[
+ {
+   "AgeGroup": "1-4 Years",
+   "NumOfDeaths": 13
+ },
+ {
+   "AgeGroup": "18-29 years",
+   "NumOfDeaths": 567
+ },
+ {
+   "AgeGroup": "30-39 years",
+   "NumOfDeaths": 1546
+ },
+ {
+   "AgeGroup": "40-49 years",
+   "NumOfDeaths": 4026
+ },
+ {
+   "AgeGroup": "5-17 years",
+   "NumOfDeaths": 46
+ },
+ {
+   "AgeGroup": "50-64 years",
+   "NumOfDeaths": 18762
+ },
+ {
+   "AgeGroup": "65-74 years",
+   "NumOfDeaths": 24881
+ },
+ {
+   "AgeGroup": "75-84 years",
+   "NumOfDeaths": 29766
+ },
+ {
+   "AgeGroup": "85+ years",
+   "NumOfDeaths": 34788
+ },
+ {
+   "AgeGroup": "Under 1 year",
+   "NumOfDeaths": 14
+ },
+ {
+   "AgeGroup": "Unknown Age",
+   "NumOfDeaths": null
+ }
+]

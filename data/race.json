@@ -1,0 +1,26 @@
+[
+ {
+   "Race": "Hispanic",
+   "NumOfDeaths": 27682
+ },
+ {
+   "Race": "Non-Hispanic American Indian or Alaska Native",
+   "NumOfDeaths": 1533
+ },
+ {
+   "Race": "Non-Hispanic Asian",
+   "NumOfDeaths": 3964
+ },
+ {
+   "Race": "Non-Hispanic Black",
+   "NumOfDeaths": 21423
+ },
+ {
+   "Race": "Non-Hispanic White",
+   "NumOfDeaths": 58746
+ },
+ {
+   "Race": "Other",
+   "NumOfDeaths": 1063
+ }
+]

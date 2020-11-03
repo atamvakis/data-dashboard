@@ -1,0 +1,18 @@
+[
+ {
+   "Region": "West",
+   "NumOfDeaths": 20957
+ },
+ {
+   "Region": "South",
+   "NumOfDeaths": 52258
+ },
+ {
+   "Region": "Northeast",
+   "NumOfDeaths": 23472
+ },
+ {
+   "Region": "Midwest",
+   "NumOfDeaths": 17724
+ }
+]
